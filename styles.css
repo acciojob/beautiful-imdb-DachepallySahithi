@@ -1,2 +1,47 @@
-
 /* Your CSS Code here. */
+body {
+	font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+.movie-container {
+	width: 90%;  
+	max-width: 900px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	padding: 20px;
+	overflow: hidden;
+}
+.moviePic{
+	width: 100%;
+	height: auto;
+	opacity: 0.85; 
+	border-radius: 10px;    
+    transition: opacity 0.3s ease;
+}
+.moviePic:hover {
+	opacity: 1;  
+}
+
+.movieDetail {
+  position: relative;      
+  top: 20px;               
+  width: 80%;              
+  font-size: 1.2em;        
+  text-align: center;      
+  margin: 20px auto;       
+  color: #333;             
+  line-height: 1.5;        
+}
+
+.movieDetail:hover {
+  color: #007BFF;          
+  cursor: pointer;        
+}
